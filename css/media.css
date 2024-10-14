@@ -2,6 +2,12 @@
 /**tablet**/
 
 @media screen and (min-width:768px) {
+
+    /**container**/
+
+    .container{
+        width: 90%;
+    }
     /**header**/
     .header{
         text-align: left;
@@ -19,8 +25,14 @@
         width: calc(100% / 3);
     }
 
+    /**social**/
     .social li{
         padding: 10px 25px;
+    }
+
+    /**banner**/
+    .banner{
+        display: inline-block;
     }
 }
 
@@ -29,6 +41,15 @@
 
 
 @media screen and (min-width:992px) {
+
+    /**container**/
+
+    .container{
+        width: 80%;
+        max-width: 1100px;
+    }
+   /**hero**/
+
    
     .col-vid{
         width: 70%;
