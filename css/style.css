@@ -27,9 +27,17 @@ a{
     color: inherit;
 }
 
+hr{
+    width: 15%;
+    background-color: orange;
+    padding: 1px ;
+
+}
 
 
-h2{
+
+
+.hero h2{
     color: blueviolet;
 }
 
@@ -49,6 +57,8 @@ h4{
     max-width: 700px;
     margin: 0 auto;
 }
+
+
 
 .container-small{
     width: 95%;
@@ -72,6 +82,12 @@ h4{
 .jc-sbeet{
     justify-content: space-between;
 }
+
+.jc-center{
+    justify-content: center;
+}
+
+
 
 /**header**/
 
@@ -141,4 +157,41 @@ h4{
 
 .banner{
     display: none;
+}
+
+/**presentation**/
+
+.presentation h2{
+    padding: 10px 0;
+}
+
+.presentation img{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/**footer**/
+
+.footer{
+    color: white;
+    background-color: blueviolet;
+    padding: 25px 0;
+}
+
+.footer p{
+    text-align: center;
+}
+
+.col-adress,
+.col-link {
+    width: 100%;
+}
+
+.footer-link{
+    width: 25%;
+}
+
+.footer a{
+    text-decoration: underline;
 }

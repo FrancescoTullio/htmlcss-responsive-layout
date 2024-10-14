@@ -34,6 +34,17 @@
     .banner{
         display: inline-block;
     }
+
+    /**presentation**/
+    .presentation img{
+        float: left;
+    }
+
+    /**footer**/
+
+    .footer-link{
+        width:20%;
+    }
 }
 
 
@@ -50,7 +61,7 @@
     }
    /**hero**/
 
-   
+
     .col-vid{
         width: 70%;
     }
@@ -69,4 +80,20 @@
     margin-left: 5px;
 }
     
+
+.footer p{
+text-align: left;
+}
+
+.footer .container{
+    width: 95%;
+}
+
+
+.col-adress,
+.col-link{
+    width: 50%;
+}
+
+
 }
