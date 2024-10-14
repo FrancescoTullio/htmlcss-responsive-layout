@@ -10,4 +10,42 @@
     .sbutitle{
         display: inline-block;
     }
+
+    .hero ul .row{
+        justify-content: space-between;
+    }
+
+    .col-list{
+        width: calc(100% / 3);
+    }
+
+    .social li{
+        padding: 10px 25px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:992px) {
+   
+    .col-vid{
+        width: 70%;
+    }
+
+    .col-ing{
+        width: 30%;
+    }
+
+    .col-list{
+        width: 100%;
+    }
+    
+/**social**/
+.social span{
+    display: inline-block;
+    margin-left: 5px;
+}
+    
 }

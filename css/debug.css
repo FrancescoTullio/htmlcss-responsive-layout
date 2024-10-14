@@ -1,3 +1,11 @@
 .bord-db{
     border: 1px solid black;
 }
+
+.min-h{
+    min-height: 400px;
+}
+
+.db-color{
+    background-color: gold;
+}

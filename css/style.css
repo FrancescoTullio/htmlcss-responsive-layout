@@ -10,14 +10,32 @@ body{
     background-color: lightgray;
 }
 
+.yt-video{
+    width: 100%;
+}
+
 img{
     width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 
 
 h2{
     color: blueviolet;
+}
+
+h3{
+    font-weight: 0.8rem;
+    width: 100%;
 }
 
 h4{
@@ -32,6 +50,24 @@ h4{
     margin: 0 auto;
 }
 
+.pad{
+    padding: 20px 0;
+}
+
+
+/**flex**/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rgap{
+    row-gap: 10px;
+}
+
+.jc-sbeet{
+    justify-content: space-between;
+}
 
 /**header**/
 
@@ -48,8 +84,51 @@ h4{
 
 .hero{
     padding: 15px 0;
+    text-align: left;
 }
 
 .sbutitle{
     display: none;
+}
+
+.col-vid,
+.col-ing,
+.col-list {
+    width: 100%;
+}
+
+.card-vid,
+.card-ing {
+    width: 100%;
+}
+
+.col-ing{
+    background-color: white;
+}
+
+/**social**/
+
+.social{
+    padding: 15px 0;
+}
+
+.social li{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.social span{
+    display: none;
+}
+
+.fa-facebook,
+.fa-twitter{
+    color: blue;
+}
+
+.fa-instagram,
+.fa-pinterest,
+.fa-youtube{
+    color: red;
 }
