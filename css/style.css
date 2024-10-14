@@ -3,11 +3,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+body{
+    background-color: lightgray;
 }
 
 img{
     width: 100%;
 }
+
+
+
+h2{
+    color: blueviolet;
+}
+
+h4{
+    color: grey;
+}
+
+/**container**/
+
+.container{
+    width: 95%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+/**header**/
+
 
 .header{
     font-family: "Nerko One";
@@ -15,6 +42,14 @@ img{
     font-size: 2rem;
     text-align: center;
     padding: 20px 10px;
+    background-color: white;
+}
+/**hero**/
+
+.hero{
+    padding: 15px 0;
 }
 
-
+.sbutitle{
+    display: none;
+}

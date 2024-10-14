@@ -6,4 +6,8 @@
     .header{
         text-align: left;
     }
+
+    .sbutitle{
+        display: inline-block;
+    }
 }
